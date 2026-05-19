@@ -1,0 +1,10 @@
+.btn-success {
+  background: linear-gradient(135deg, var(--color-success), #22c55e);
+  color: white;
+  box-shadow: 0 2px 8px rgba(var(--color-success-rgb), 0.25);
+}
+
+.btn-success:hover {
+  box-shadow: 0 4px 14px rgba(var(--color-success-rgb), 0.35);
+  transform: translateY(-1px);
+}
